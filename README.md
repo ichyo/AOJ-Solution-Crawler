@@ -1,5 +1,5 @@
 # AOJ-Solution-Crawler
-Correcting solutions of the problems in Aizu online judge
+Collecting solutions for problems in Aizu Online Judge
 
 ## usage
 ```python
