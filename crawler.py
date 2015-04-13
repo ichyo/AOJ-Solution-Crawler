@@ -2,7 +2,7 @@ import time
 import aojtools
 import requests
 import logging
-from scriper import AOJScriper
+from scriper import AOJSolutionScriper
 class SolutionCrawler:
     def __init__(self, handler):
         self.handler = handler
@@ -40,6 +40,6 @@ class AOJSolutionCrawler(SolutionCrawler):
         return res
 
     def scripe(self, url):
-        sc = AOJScriper()
+        sc = AOJSolutionScriper()
         r = requests.get(url)
         return sc.scripe(r.text)

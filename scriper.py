@@ -2,7 +2,7 @@ import re
 import requests
 import scrapelib
 import lxml.html
-class AOJScriper:
+class AOJSolutionScriper:
     def __init__(self, requests_per_minute=20):
         self.requests = scrapelib.Scraper(requests_per_minute=requests_per_minute)
 
