@@ -2,7 +2,7 @@
 Correcting solutions of the problems in Aizu online judge
 
 ## usage
-```
+```python
 from crawler import AOJSolutionCrawler
 
 def handle(problem, user, language, solution):
