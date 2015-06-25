@@ -1,7 +1,7 @@
 # AOJ-Solution-Crawler
 Collecting solutions for problems in Aizu Online Judge
 
-## usage
+## example
 ```python
 from crawler import AOJSolutionCrawler
 
